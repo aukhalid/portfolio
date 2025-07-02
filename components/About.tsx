@@ -31,7 +31,10 @@ export function About() {
   };
 
   return (
-    <section id="about" className="py-20 bg-muted/30">
+    <section
+      id="about"
+      className="py-20 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-blue-950/20 dark:via-purple-950/20 dark:to-pink-950/20"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           variants={containerVariants}

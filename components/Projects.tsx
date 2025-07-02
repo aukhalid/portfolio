@@ -39,7 +39,10 @@ export function Projects() {
   };
 
   return (
-    <section id="projects" className="py-20">
+    <section
+      id="projects"
+      className="py-20 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-blue-950/20 dark:via-purple-950/20 dark:to-pink-950/20"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           variants={containerVariants}
@@ -53,19 +56,19 @@ export function Projects() {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
               A showcase of my recent work and side projects
             </p>
-            
+
             {/* Filter Buttons */}
             <div className="flex justify-center space-x-4">
               <Button
-                variant={filter === 'all' ? 'default' : 'outline'}
-                onClick={() => setFilter('all')}
+                variant={filter === "all" ? "default" : "outline"}
+                onClick={() => setFilter("all")}
                 className="rounded-full"
               >
                 All Projects
               </Button>
               <Button
-                variant={filter === 'featured' ? 'default' : 'outline'}
-                onClick={() => setFilter('featured')}
+                variant={filter === "featured" ? "default" : "outline"}
+                onClick={() => setFilter("featured")}
                 className="rounded-full"
               >
                 <Star className="w-4 h-4 mr-2" />
@@ -105,7 +108,7 @@ export function Projects() {
                         size="sm"
                         variant="secondary"
                         className="rounded-full"
-                        onClick={() => window.open(project.githubUrl, '_blank')}
+                        onClick={() => window.open(project.githubUrl, "_blank")}
                       >
                         <Github className="w-4 h-4 mr-2" />
                         Code
@@ -113,14 +116,14 @@ export function Projects() {
                       <Button
                         size="sm"
                         className="rounded-full bg-white text-black hover:bg-gray-200"
-                        onClick={() => window.open(project.liveUrl, '_blank')}
+                        onClick={() => window.open(project.liveUrl, "_blank")}
                       >
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Live
                       </Button>
                     </div>
                   </div>
-                  
+
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
                       {project.title}
@@ -128,10 +131,14 @@ export function Projects() {
                     <p className="text-muted-foreground text-sm mb-4 line-clamp-3">
                       {project.description}
                     </p>
-                    
+
                     <div className="flex flex-wrap gap-2 mb-4">
                       {project.technologies.slice(0, 3).map((tech) => (
-                        <Badge key={tech} variant="secondary" className="text-xs">
+                        <Badge
+                          key={tech}
+                          variant="secondary"
+                          className="text-xs"
+                        >
                           {tech}
                         </Badge>
                       ))}
@@ -141,13 +148,13 @@ export function Projects() {
                         </Badge>
                       )}
                     </div>
-                    
+
                     <div className="flex space-x-3">
                       <Button
                         variant="outline"
                         size="sm"
                         className="flex-1"
-                        onClick={() => window.open(project.githubUrl, '_blank')}
+                        onClick={() => window.open(project.githubUrl, "_blank")}
                       >
                         <Github className="w-4 h-4 mr-2" />
                         Code
@@ -155,7 +162,7 @@ export function Projects() {
                       <Button
                         size="sm"
                         className="flex-1"
-                        onClick={() => window.open(project.liveUrl, '_blank')}
+                        onClick={() => window.open(project.liveUrl, "_blank")}
                       >
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Live Demo
