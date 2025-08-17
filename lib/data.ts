@@ -19,7 +19,6 @@ import {
 
 export const personalInfo = {
   name: "Ahasan Ullah Khalid",
-  title: "VLSI Engineer",
   bio: "A passionate Electronics & VLSI Engineer from CUET with a strong focus on both front & back-end hardware design in the VLSI domain.",
   location: "Dhaka, Bangladesh",
   email: "aukhalid02@gmail.com",
