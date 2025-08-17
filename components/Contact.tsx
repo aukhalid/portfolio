@@ -103,8 +103,8 @@ export function Contact() {
                 </h3>
                 <p className="text-muted-foreground mb-8">
                   I&#39;m always open to discussing new opportunities, creative
-                  projects, or just having a friendly chat about technology and
-                  development.
+                  projects, or just having a friendly chat about technology,
+                  chip design or maybe sports, anime etc.
                 </p>
               </div>
 
