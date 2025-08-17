@@ -14,13 +14,13 @@ export default function Home() {
       <Projects />
       <Contact />
       <Toaster />
-      
+
       {/* Footer */}
       <footer className="py-8 border-t border-border/50 bg-background/50 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-muted-foreground">
-              © 2024 Ahasan Ullah Khalid. Built with Next.js, TypeScript, and Tailwind CSS.
+              © 2025 Ahasan Ullah Khalid. All rights reserved.
             </p>
           </div>
         </div>

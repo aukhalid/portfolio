@@ -68,7 +68,7 @@ export const projects = [
     description:
       "A comprehensive collection of CMOS standard cells and digital system designs implemented using the gpdk90 open-source PDK in Cadence Virtuoso. Includes transistor-level schematics, layouts, symbols, and simulations in ADE L with verification against truth tables. Covers both fundamental gates (inverter, NAND, NOR, adders) and advanced circuits.",
     image: "/khalid_ha_la.png",
-    technologies: ["Cdence Virtuoso", "ADE L", "gpdk90 PDK", "Layout XL"],
+    technologies: ["Cadence Virtuoso", "ADE L", "gpdk90 PDK", "Layout XL"],
     githubUrl: "https://github.com/aukhalid/CMOS-VLSI-Logic-Designs-gpdk90",
     liveUrl: "https://github.com/aukhalid/CMOS-VLSI-Logic-Designs-gpdk90",
     featured: true,
@@ -102,7 +102,7 @@ export const projects = [
       "This is a website of a company called Nokshia. It's made of only HTML, CSS, Tailwind CSS, JS etc.",
     image: "/nokshia.png",
     technologies: ["HTML", "CSS", "Tailwind CSS", "JS"],
-    githubUrl: "https://github.com/johndoe/weather-dashboard",
+    githubUrl: "https://github.com/aukhalid/Nokshia",
     liveUrl: "https://nokshia.vercel.app/",
     featured: true,
   },

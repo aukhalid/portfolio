@@ -103,9 +103,6 @@ export function Hero() {
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
               {personalInfo.name}
             </h1>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-muted-foreground mt-4">
-              {personalInfo.title}
-            </h2>
           </motion.div>
 
           {/* Description */}
