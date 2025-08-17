@@ -115,6 +115,14 @@ export function About() {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {skills.map((skill, index) => {
+                  <div key={index} className="skill-item">
+                    {skill.icon ? (
+                      <skill.icon className="skill-icon" />
+                    ) : (
+                      <span>🔧</span>
+                    )}
+                    <p>{skill.name}</p>
+                  </div>;
                   const IconComponent = skill.icon;
                   return (
                     <motion.div

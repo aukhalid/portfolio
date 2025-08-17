@@ -1,31 +1,31 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { ThemeProvider } from '@/components/ThemeProvider';
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/ThemeProvider";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ahasan Ullah Khalid - Web Developer",
+  title: "Ahasan Ullah Khalid - Portfolio",
   description:
-    "Passionate full-stack developer specializing in modern web technologies. View my portfolio and get in touch!",
+    "A passionate Electronics & VLSI Engineer from CUET with a strong focus on both front & back-end hardware design in the VLSI domain. View my portfolio and get in touch!",
   keywords:
-    "full stack developer, web developer, react, next.js, typescript, portfolio",
+    "vlsi, vlsi enginner, hardware design, vlsi design full stack developer, web developer, react, next.js, typescript, portfolio",
   authors: [{ name: "Ahasan Ullah Khalid" }],
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   openGraph: {
-    title: "Ahasan Ullah Khalid - Web Developer",
+    title: "Ahasan Ullah Khalid - Portfolio",
     description:
-      "Passionate full-stack developer specializing in modern web technologies.",
+      "A passionate Electronics & VLSI Engineer from CUET with a strong focus on both front & back-end hardware design in the VLSI domain.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ahasan Ullah Khalid - Web Developer",
+    title: "Ahasan Ullah Khalid - Portfolio",
     description:
-      "Passionate full-stack developer specializing in modern web technologies.",
+      "A passionate Electronics & VLSI Engineer from CUET with a strong focus on both front & back-end hardware design in the VLSI domain.",
   },
 };
 
