@@ -36,6 +36,8 @@ export const personalInfo = {
 
 export const skills = [
   { name: "Cadence Virtuoso", icon: FaMicrochip, level: 85 },
+  { name: "Verilog HDL", icon: FaMicrochip, level: 90 },
+  { name: "VHDL", icon: FaProjectDiagram, level: 88 },
   { name: "Quartus II", icon: SiIntel, level: 80 },
   { name: "Logisim Evolution", icon: FaProjectDiagram, level: 88 },
   { name: "React", icon: FaReact, level: 95 },
@@ -44,9 +46,7 @@ export const skills = [
   { name: "Node.js", icon: FaNodeJs, level: 85 },
   { name: "Python", icon: FaPython, level: 80 },
   { name: "Tailwind CSS", icon: SiTailwindcss, level: 92 },
-  { name: "MongoDB", icon: SiMongodb, level: 75 },
   { name: "Git", icon: FaGitAlt, level: 90 },
-  { name: "AWS", icon: FaAws, level: 65 },
 ];
 
 export const projects = [
