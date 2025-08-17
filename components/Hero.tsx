@@ -89,19 +89,7 @@ export function Hero() {
           {/* Profile Image */}
           <motion.div variants={itemVariants} className="flex justify-center">
             <div className="relative">
-              <motion.div
-                animate={{ rotate: 360 }}
-                transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-1"
-              >
-                <div className="rounded-full bg-background p-2">
-                  <img
-                    src={personalInfo.profileImage}
-                    alt={personalInfo.name}
-                    className="w-32 h-32 rounded-full object-cover"
-                  />
-                </div>
-              </motion.div>
+              <motion.div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-1"></motion.div>
               <img
                 src={personalInfo.profileImage}
                 alt={personalInfo.name}
@@ -112,7 +100,6 @@ export function Hero() {
 
           {/* Greeting */}
           <motion.div variants={itemVariants}>
-            
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
               {personalInfo.name}
             </h1>
