@@ -20,7 +20,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-muted-foreground">
-              © 2025 Ahasan Ullah Khalid. All rights reserved.
+              © 2026 Ahasan Ullah Khalid. All rights reserved.
             </p>
           </div>
         </div>

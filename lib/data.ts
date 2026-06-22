@@ -35,15 +35,22 @@ export const personalInfo = {
 };
 
 export const skills = [
+  // --- Hardware Description & Verification ---
   { name: "Cadence Virtuoso", icon: FaMicrochip, level: 85 },
-  { name: "Verilog HDL", icon: FaMicrochip, level: 90 },
-  { name: "SystemVerilog", icon: FaProjectDiagram, level: 88 },
-  { name: "AMD Xilinx Vivado", icon: SiIntel, level: 80 },
+  { name: "Verilog HDL", icon: FaCpu, level: 90 }, 
+  { name: "SystemVerilog", icon: FaShieldAlt, level: 88 }, 
+  { name: "AMD Xilinx Vivado", icon: SiXilinx, level: 80 }, 
+  { name: "ModelSim / QuestaSim", icon: FaTerminal, level: 85 },
   { name: "Logisim Evolution", icon: FaProjectDiagram, level: 88 },
-  { name: "OpenROAD", icon: FaPython, level: 80 },
-  { name: "Yosys", icon: FaReact, level: 95 },
-  { name: "GTKWave", icon: SiTypescript, level: 90 },
-  { name: "KLayout", icon: SiTypescript, level: 90 },
+  { name: "GTKWave", icon: FaWaveSquare, level: 90 }, 
+
+  // --- Open-Source EDA & ASIC Flow ---
+  { name: "OpenROAD", icon: SiCircuitverse, level: 80 }, 
+  { name: "Yosys", icon: FaCogs, level: 95 }, 
+  { name: "KLayout", icon: FaLayerGroup, level: 90 }, 
+  { name: "OpenLane", icon: FaRoute, level: 80 }, 
+
+  // --- Programming & Full-Stack Development ---
   { name: "Python", icon: FaPython, level: 80 },
   { name: "React", icon: FaReact, level: 95 },
   { name: "TypeScript", icon: SiTypescript, level: 90 },
@@ -51,6 +58,7 @@ export const skills = [
   { name: "Node.js", icon: FaNodeJs, level: 85 },
   { name: "Tailwind CSS", icon: SiTailwindcss, level: 92 },
   { name: "Git", icon: FaGitAlt, level: 90 },
+  { name: "Docker", icon: FaDocker, level: 75 },
 ];
 
 export const projects = [
