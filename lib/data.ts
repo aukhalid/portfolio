@@ -1,20 +1,24 @@
 import {
-  FaReact,
-  FaNodeJs,
-  FaPython,
-  FaGitAlt,
-  FaDocker,
-  FaAws,
-  FaMicrochip,
-  FaProjectDiagram,
+  FaMicrochip, 
+  FaShieldAlt, 
+  FaTerminal, 
+  FaProjectDiagram, 
+  FaChartLine, // Great for GTKWave/waveforms
+  FaCogs, 
+  FaLayerGroup, 
+  FaRoute, 
+  FaPython, 
+  FaReact, 
+  FaNodeJs, 
+  FaGitAlt, 
+  FaDocker
 } from "react-icons/fa";
 import {
-  SiTypescript,
-  SiNextdotjs,
-  SiTailwindcss,
-  SiMongodb,
-  SiPostgresql,
-  SiIntel,
+  SiXilinx, 
+  SiAltiumdesigner, // Good generic EDA/circuit placeholder if needed
+  SiTypescript, 
+  SiNextdotjs, 
+  SiTailwindcss
 } from "react-icons/si";
 
 export const personalInfo = {
