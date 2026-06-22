@@ -44,7 +44,7 @@ export const skills = [
   { name: "Verilog HDL", icon: FaMicrochip, level: 90 },
   { name: "SystemVerilog", icon: FaShieldAlt, level: 88 }, 
   { name: "AMD Xilinx Vivado", icon: SiXilinx, level: 80 }, 
-  { name: "ModelSim / QuestaSim", icon: FaTerminal, level: 85 }, 
+  { name: "ModelSim", icon: FaTerminal, level: 85 }, 
   { name: "Logisim Evolution", icon: FaProjectDiagram, level: 88 },
   { name: "GTKWave", icon: FaChartLine, level: 90 },
 
@@ -60,7 +60,6 @@ export const skills = [
   { name: "TypeScript", icon: SiTypescript, level: 90 },
   { name: "Next.js", icon: SiNextdotjs, level: 88 },
   { name: "Node.js", icon: FaNodeJs, level: 85 },
-  { name: "Tailwind CSS", icon: SiTailwindcss, level: 92 },
   { name: "Git", icon: FaGitAlt, level: 90 },
   { name: "Docker", icon: FaDocker, level: 75 },
 ];
