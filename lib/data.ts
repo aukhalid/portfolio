@@ -41,7 +41,7 @@ export const personalInfo = {
 export const skills = [
   // --- Hardware Description & Verification ---
   { name: "Cadence Virtuoso", icon: FaMicrochip, level: 85 },
-  { name: "Verilog HDL", icon: FaCpu, level: 90 }, 
+  { name: "Verilog HDL", icon: FaShieldAlt, level: 90 }, 
   { name: "SystemVerilog", icon: FaShieldAlt, level: 88 }, 
   { name: "AMD Xilinx Vivado", icon: SiXilinx, level: 80 }, 
   { name: "ModelSim / QuestaSim", icon: FaTerminal, level: 85 },
