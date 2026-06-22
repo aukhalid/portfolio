@@ -59,7 +59,7 @@ export const projects = [
     title: "EVPIX-RV32: Custom RISC-V SoC",
     description:
       "A custom 32-bit, 5-stage pipelined RISC-V processor core featuring dedicated hardware accelerators and custom instruction extensions optimized for edge vision and real-time image processing tasks.",
-    image: "/soc_top_2.png",
+    image: "/soc_top_3.png",
     technologies: ["RISC-V", "SystemVerilog", "Computer Architecture", "RTL Design"],
     githubUrl: "https://github.com/aukhalid/evpix_rv32",
     liveUrl: "https://github.com/aukhalid/evpix_rv32",
@@ -71,18 +71,18 @@ export const projects = [
     description:
       "Hardware validation and prototyping of the EVPIX-RV32 processor core on physical FPGA hardware. Includes testbench development, hardware-in-the-loop validation, and resource optimization utilizing Quartus II.",
     image: "/full_setup.jpg",
-    technologies: ["FPGA", "Quartus II", "SystemVerilog", "Hardware Validation"],
+    technologies: ["FPGA", "Xilinx Vivado", "SystemVerilog", "Hardware Validation"],
     githubUrl: "https://github.com/aukhalid/evpix_rv32",
     liveUrl: "https://github.com/aukhalid/evpix_rv32",
     featured: true,
   },
   {
     id: 3,
-    title: "EVPIX-RV32: RTL-to-GDSII ASIC Flow",
+    title: "EVPIX-RV32: RTL-to-GDSII ASIC Flow Layout",
     description:
       "Physical design and synthesis of the EVPIX-RV32 edge vision processor using an advanced open-source PDK flow. Covers the entire RTL-to-GDSII ASIC implementation pipeline including logic synthesis, floorplanning, placement, CTS, and routing.",
-    image: "/asic.png", //
-    technologies: ["ASIC Design", "Openlane", "SkyWater 130nm", "Physical Design"],
+    image: "/asic_without_pwr_gnd.png", //
+    technologies: ["ASIC Design", "OpenROAD", "SkyWater 130nm", "Physical Design"],
     githubUrl: "https://github.com/aukhalid/evpix_rv32",
     liveUrl: "https://github.com/aukhalid/evpix_rv32",
     featured: true,
@@ -136,5 +136,19 @@ export const experience = [
     company: "Manarat International University (MIU)",
     period: "2026 - Present",
     description: "Delivering comprehensive lectures and practical sessions on VLSI design for the EEE department, developing quizzes and examination questions, evaluating student assignments and assessments.",
+  },
+
+    {
+    title: "Intern",
+    company: "Teletalk Bangladesh Ltd.",
+    period: "2025",
+    description: "Completed industrial attachment and learned about how the networking works in circuit switching and packet switching.",
+  },
+
+    {
+    title: "Founder / Co-Owner",
+    company: "AshesToFlame Records",
+    period: "2019 - 2022",
+    description: "Managed music production, release workflow, branding, collaborations, artists/talents management.",
   },
 ];
