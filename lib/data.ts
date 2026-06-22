@@ -19,7 +19,7 @@ import {
 
 export const personalInfo = {
   name: "Ahasan Ullah Khalid",
-  bio: "RTL Design & Verification Engineer | VLSI Enthusiast | RISC-V | FPGA | RTL-to-GDSII ASIC Design",
+  bio: "RTL Design & Verification Engineer | VLSI Enthusiast | RISC-V | FPGA | ASIC Design",
   location: "Dhaka, Bangladesh",
   email: "aukhalid02@gmail.com",
   phone: "+8801610074044",
@@ -56,7 +56,7 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "EVPIX-RV32: Custom RISC-V SoC",
+    title: "EVPIX-RV32: Custom RISC-V SoC with IPU & TinyML Accelerators",
     description:
       "A custom 32-bit, 5-stage pipelined RISC-V processor core featuring dedicated hardware accelerators and custom instruction extensions optimized for edge vision and real-time image processing tasks.",
     image: "/soc_top_3.png",
@@ -135,14 +135,14 @@ export const experience = [
     title: "VLSI Lecturer (Part-time)",
     company: "Manarat International University (MIU)",
     period: "2026 - Present",
-    description: "Delivering comprehensive lectures and practical sessions on VLSI design for the EEE department, developing quizzes and examination questions, evaluating student assignments and assessments.",
+    description: "Delivering comprehensive lectures and practical sessions on VLSI design for EEE department",
   },
 
     {
     title: "Intern",
     company: "Teletalk Bangladesh Ltd.",
     period: "2025",
-    description: "Completed industrial attachment and learned about how the networking works in circuit switching and packet switching.",
+    description: "Industrial attachment, learned about how the networking works in circuit and packet switching.",
   },
 
     {
