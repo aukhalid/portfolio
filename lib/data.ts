@@ -39,17 +39,17 @@ export const personalInfo = {
 };
 
 export const skills = [
-  // --- Hardware Description & Verification ---
+// --- Hardware Description & Verification ---
   { name: "Cadence Virtuoso", icon: FaMicrochip, level: 85 },
-  { name: "Verilog HDL", icon: FaShieldAlt, level: 90 }, 
+  { name: "Verilog HDL", icon: FaMicrochip, level: 90 },
   { name: "SystemVerilog", icon: FaShieldAlt, level: 88 }, 
   { name: "AMD Xilinx Vivado", icon: SiXilinx, level: 80 }, 
-  { name: "ModelSim / QuestaSim", icon: FaTerminal, level: 85 },
+  { name: "ModelSim / QuestaSim", icon: FaTerminal, level: 85 }, 
   { name: "Logisim Evolution", icon: FaProjectDiagram, level: 88 },
-  { name: "GTKWave", icon: FaWaveSquare, level: 90 }, 
+  { name: "GTKWave", icon: FaChartLine, level: 90 },
 
   // --- Open-Source EDA & ASIC Flow ---
-  { name: "OpenROAD", icon: SiCircuitverse, level: 80 }, 
+  { name: "OpenROAD", icon: FaProjectDiagram, level: 80 }, 
   { name: "Yosys", icon: FaCogs, level: 95 }, 
   { name: "KLayout", icon: FaLayerGroup, level: 90 }, 
   { name: "OpenLane", icon: FaRoute, level: 80 }, 
