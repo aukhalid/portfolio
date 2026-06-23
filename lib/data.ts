@@ -92,7 +92,7 @@ export const projects = [
     title: "EVPIX-RV32: RTL-to-GDSII ASIC Flow Layout",
     description:
       "Physical design and synthesis of the EVPIX-RV32 edge vision processor using an advanced open-source PDK flow. Covers the entire RTL-to-GDSII ASIC implementation pipeline including logic synthesis, floorplanning, placement, CTS, and routing.",
-    image: "/asic_without_pwr_gnd.png", //
+    image: "/asic_without_power_ground_new.png", //
     technologies: ["ASIC Design", "OpenROAD", "SkyWater 130nm", "Physical Design"],
     githubUrl: "https://github.com/aukhalid/evpix_rv32",
     liveUrl: "https://github.com/aukhalid/evpix_rv32",
