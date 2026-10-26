@@ -23,7 +23,7 @@ import {
 
 export const personalInfo = {
   name: "Ahasan Ullah Khalid",
-  bio: "RTL Design & Verification Engineer | VLSI Lecturer | RISC-V | FPGA | ASIC Design",
+  bio: "Crafting art into molten sand | IC Physical Design | ULKASEMI Pvt. Limited",
   location: "Dhaka, Bangladesh",
   email: "aukhalid02@gmail.com",
   phone: "+8801610074044",
