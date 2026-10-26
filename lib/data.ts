@@ -140,9 +140,8 @@ export const experience = [
     company: "ULKASEMI Pvt. Limited",
     period: "October, 2026 - Present",
     description:
-      "RTL Design Projects with SystemVerilog HDL, verifying them with testbench and full ASIC/FPGA implementation for different clients.",
+     "Digital backend implementation from synthesis to signoff, focusing on floorplanning, power planning, CTS, place and route (PnR), and static timing analysis (STA) across advanced technology nodes.",
   },
-  {
     title: "Internship, RTL Design & Verification",
     company: "ADN Semiconductors Ltd.",
     period: "June, 2026 - August, 2026",
