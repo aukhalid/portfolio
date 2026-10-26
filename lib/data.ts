@@ -136,30 +136,32 @@ export const projects = [
 
 export const experience = [
   {
-    title: "RTL Design & Verification Engineer (Intern)",
+    title: "Trainee Engineer, IC Physical Design",
+    company: "ULKASEMI Pvt. Limited",
+    period: "October, 2026 - Present",
+    description:
+      "RTL Design Projects with SystemVerilog HDL, verifying them with testbench and full ASIC/FPGA implementation for different clients.",
+  },
+  {
+    title: "Internship, RTL Design & Verification",
     company: "ADN Semiconductors Ltd.",
-    period: "2026 - Present",
+    period: "June, 2026 - August, 2026",
     description:
       "RTL Design Projects with SystemVerilog HDL, verifying them with testbench and full ASIC/FPGA implementation for different clients.",
   },
   {
     title: "VLSI Lecturer (Part-time)",
     company: "Manarat International University (MIU)",
-    period: "2026 - Present",
-    description: "Delivering comprehensive lectures and practical sessions on VLSI design for EEE department",
+    period: "May, 2026 - September, 2026",
+    description:
+      "Delivering comprehensive lectures and practical sessions on VLSI design for EEE department",
   },
 
-    {
-    title: "Intern",
-    company: "Teletalk Bangladesh Ltd.",
-    period: "2025",
-    description: "Industrial attachment, learned about how the networking works in circuit and packet switching.",
-  },
-
-    {
+  {
     title: "Founder / Co-Owner",
     company: "AshesToFlame Records",
     period: "2019 - 2022",
-    description: "Managed music production, release workflow, branding, collaborations, artists/talents management.",
+    description:
+      "Managed music production, release workflow, branding, collaborations, artists/talents management.",
   },
 ];
