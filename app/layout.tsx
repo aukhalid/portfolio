@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Ahasan Ullah Khalid - Portfolio",
   description:
-    "A passionate Electronics & VLSI Engineer from CUET with a strong focus on both front & back-end hardware design in the VLSI domain. View my portfolio and get in touch!",
+    "I am a silicon enthusiast and hardware engineer deeply passionate about the entire VLSI design, from microarchitecture and RTL to IC Physical Design and tape-out.",
   keywords:
     "vlsi, vlsi enginner, hardware design, vlsi design full stack developer, web developer, react, next.js, typescript, portfolio",
   authors: [{ name: "Ahasan Ullah Khalid" }],
