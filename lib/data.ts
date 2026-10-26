@@ -23,7 +23,7 @@ import {
 
 export const personalInfo = {
   name: "Ahasan Ullah Khalid",
-  bio: "Crafting art into molten sand | IC Physical Design | ULKASEMI Pvt. Limited",
+  bio: "Crafting art into molten sand | IC Physical Design | Ulkasemi",
   location: "Dhaka, Bangladesh",
   email: "aukhalid02@gmail.com",
   phone: "+8801610074044",
