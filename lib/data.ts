@@ -140,8 +140,9 @@ export const experience = [
     company: "ULKASEMI Pvt. Limited",
     period: "October, 2026 - Present",
     description:
-     "Digital backend implementation from synthesis to signoff, focusing on floorplanning, power planning, CTS, PnR, and STA across advanced technology nodes.",
+      "Digital backend implementation from synthesis to signoff, focusing on floorplanning, power planning, CTS, PnR, and STA across advanced technology nodes.",
   },
+  {
     title: "Internship, RTL Design & Verification",
     company: "ADN Semiconductors Ltd.",
     period: "June, 2026 - August, 2026",
